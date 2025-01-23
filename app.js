@@ -36,5 +36,6 @@ function sortearAmigo(){
     const li = document.createElement('li'); // Crea un elemento <li>
     li.textContent = `El amigo sorteado es: ${amigoSorteado}`; // Agrega el texto al <li>
     document.getElementById('resultado').appendChild(li); // Agrega el <li> a la lista
+    console.log(amigoSorteado);
 }
 
