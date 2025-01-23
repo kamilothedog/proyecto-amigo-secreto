@@ -26,3 +26,15 @@ function agregarArregloEnLista(arreglo){
     lista.appendChild(li); // Agrega el <li> a la lista
    }
 }
+
+function sortearAmigo(){
+    if(amigos.length < 2){
+        alert("No hay suficientes amigos para sortear");
+        return;
+    }
+    const amigoSorteado = amigos[Math.floor(Math.random()*amigos.length)];
+    const li = document.createElement('li'); // Crea un elemento <li>
+    li.textContent = `El amigo sorteado es: ${amigoSorteado}`; // Agrega el texto al <li>
+    document.getElementById('resultado').appendChild(li); // Agrega el <li> a la lista
+}
+
