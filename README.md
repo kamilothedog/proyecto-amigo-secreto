@@ -1,7 +1,7 @@
 # Amigo Secreto
 ## Descripción
 Amigo secreto es una app que nos permite sortear un nombre de una lista proporcionada por el usuario.
-Los usuarios pueden crear una lista y realizar el sorteo de forma aleatoria para descubrir su amigo secreto
+Los usuarios pueden crear una lista y realizar el sorteo de forma aleatoria para descubrir su amigo secreto.
 ## Uso
 1. Escriba el nombre de su amigo.
 2. Haga click en el boton **"Añadir"** para introducir su amigo a una lista.
