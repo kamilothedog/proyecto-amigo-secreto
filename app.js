@@ -14,7 +14,6 @@ function agregarAmigo() {
     // Limpia el campo de texto
     document.getElementById('amigo').value = "";
     agregarArregloEnLista(amigos);
-    console.log(amigos);
 }
 
 function agregarArregloEnLista(arreglo){
@@ -31,6 +30,7 @@ function sortearAmigo(){
     const amigoSorteado = amigos[Math.floor(Math.random()*amigos.length)];
     const li = document.createElement('li'); // Crea un elemento <li>
     document.getElementById('resultado').innerHTML = ""; // Limpia la lista
+    document.getElementById('listaAmigos').innerHTML = ""; // Limpia la lista
     if(amigos.length < 2){
         alert("No hay suficientes amigos para sortear");
         return;
